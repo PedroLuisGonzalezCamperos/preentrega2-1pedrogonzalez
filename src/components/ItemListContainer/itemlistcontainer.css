@@ -1,0 +1,22 @@
+.itemlistcontainer .itemlist {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan */
+    justify-content: space-between; /* Asegura que los elementos se distribuyan con espacios entre ellos */
+}
+
+.itemlistcontainer .item {
+    width: calc(33.33% - 6%); /* Ajusta el ancho para que quepan 3 elementos por fila */
+    margin: 3% 1%; /* Ajusta los márgenes para que encajen bien los elementos */
+    padding: 2%;
+    border: 2px solid rgb(37, 37, 37);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.item img {
+    max-width: 100%; /* Ajusta el tamaño de la imagen para que no sobresalga del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block;
+}
