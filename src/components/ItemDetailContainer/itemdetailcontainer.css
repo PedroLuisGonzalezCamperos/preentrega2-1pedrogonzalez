@@ -1,0 +1,22 @@
+.itemdetail-img {
+    display: flex;
+height: auto;
+width: 500px;
+}
+
+.itemdetail {
+display: flex;
+padding: 20px;
+
+}
+
+.itemdetail-texto {
+    text-align: justify;
+    margin-top: 48px;
+    width: 30%;
+    display: flex;           
+    flex-direction: column;   
+    font-size: 18px;
+       
+
+}

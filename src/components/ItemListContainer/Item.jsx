@@ -1,12 +1,14 @@
-import React from "react";
+import { Link } from "react-router-dom"
 
 const Item = ({product}) => {
   return (
-    <div key={product.id} className="item">
+    <Link to={"/detail/"+product.id} className="item">
       <h2>{product.name}</h2>
       <img src={product.image} alt="" width={250} />
       <p>precio:${product.price}</p>
-    </div>
+      </Link>
+
+     
   );
 };
 

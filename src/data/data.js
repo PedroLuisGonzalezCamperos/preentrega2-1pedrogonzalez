@@ -1,114 +1,114 @@
 const products = [
     {
-        id: "1",
+        id: "1rr",
         name: "Laptop Acer Aspire",
-        description: "Laptop Acer con 8GB de RAM y 256GB SSD.",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nam, dicta esse dolore, error minus quidem distinctio quae nisi veritatis labore cupiditate neque unde ab nostrum reprehenderit itaque in obcaecati?",
         price: 599.99,
         stock: 15,
-        image: "/img/laptop-acer-aspire.jpg",
-        category: "laptop"
+        image: "/img/laptop.jpg",
+        category: "laptops"
     },
     {
-        id: "2",
-        name: "Laptop Dell XPS 13",
-        description: "Laptop Dell con pantalla táctil y procesador Intel i7.",
+        id: "2dfg",
+        name: "Laptop Acer Aspire",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nam, dicta esse dolore, error minus quidem distinctio quae nisi veritatis labore cupiditate neque unde ab nostrum reprehenderit itaque in obcaecati?",
         price: 1199.99,
         stock: 8,
-        image: "/img/laptop-dell-xps.jpg",
-        category: "laptop"
+        image: "/img/laptop.jpg",
+        category: "laptops"
     },
     {
-        id: "7",
-        name: "Laptop HP Pavilion",
-        description: "Laptop HP con procesador AMD Ryzen y 512GB SSD.",
+        id: "3df",
+        name: "Laptop Acer Aspire",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nam, dicta esse dolore, error minus quidem distinctio quae nisi veritatis labore cupiditate neque unde ab nostrum reprehenderit itaque in obcaecati?",
         price: 749.99,
         stock: 18,
-        image: "/img/laptop-dell-xps.jpg",
-        category: "laptop"
+        image: "/img/laptop.jpg",
+        category: "laptops"
     },
     {
-        id: "3",
-        name: "Router TP-Link Archer C6",
-        description: "Router dual band con velocidad de hasta 1200Mbps.",
+        id: "4bh",
+        name: "Laptop Acer Aspire",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nam, dicta esse dolore, error minus quidem distinctio quae nisi veritatis labore cupiditate neque unde ab nostrum reprehenderit itaque in obcaecati?.",
         price: 49.99,
         stock: 25,
-        image: "/img/laptop-dell-xps.jpg",
-        category: "routers"
+        image: "/img/laptop.jpg",
+        category: "laptops"
     },
     {
-        id: "4",
-        name: "Router Netgear Nighthawk",
-        description: "Router avanzado con WiFi 6 y cobertura amplia.",
+        id: "5fg",
+        name: "Monitor Appel",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nam, dicta esse dolore, error minus quidem distinctio quae nisi veritatis labore cupiditate neque unde ab nostrum reprehenderit itaque in obcaecati?",
         price: 199.99,
         stock: 10,
-        image: "/img/laptop-dell-xps.jpg",
-        category: "routers"
+        image: "/img/pc-todoenuno.jpg",
+        category: "pcs"
     },
     {
-        id: "5",
-        name: "Audífonos Sony WH-1000XM4",
-        description: "Audífonos con cancelación de ruido y Bluetooth.",
+        id: "6ert",
+        name: "Monitor Appel",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nam, dicta esse dolore, error minus quidem distinctio quae nisi veritatis labore cupiditate neque unde ab nostrum reprehenderit itaque in obcaecati?",
         price: 349.99,
         stock: 20,
-        image: "/img/laptop-dell-xps.jpg",
-        category: "articulos electronicos"
+        image: "/img/pc-todoenuno.jpg",
+        category: "pcs"
     },
     {
-        id: "6",
-        name: "Smartwatch Apple Watch Series 6",
-        description: "Smartwatch de Apple con monitoreo de salud y GPS.",
+        id: "7zss",
+        name: "Monitor Appel",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nam, dicta esse dolore, error minus quidem distinctio quae nisi veritatis labore cupiditate neque unde ab nostrum reprehenderit itaque in obcaecati?",
         price: 399.99,
         stock: 12,
-        image: "/img/laptop-dell-xps.jpg",
-        category: "articulos electronicos"
+        image: "/img/pc-todoenuno.jpg",
+        category: "pcs"
     },
 
     {
-        id: "10",
-        name: "Teclado Mecánico Corsair K95",
-        description: "Teclado mecánico con retroiluminación RGB.",
+        id: "8fgh",
+        name: "Monitor Appel",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nam, dicta esse dolore, error minus quidem distinctio quae nisi veritatis labore cupiditate neque unde ab nostrum reprehenderit itaque in obcaecati?",
         price: 199.99,
         stock: 30,
-        image: "/img/laptop-dell-xps.jpg",
-        category: "articulos electronicos"
+        image: "/img/pc-todoenuno.jpg",
+        category: "pcs"
     },
     {
-        id: "11",
-        name: "Monitor Samsung 4K",
-        description: "Monitor de 27 pulgadas con resolución 4K UHD.",
+        id: "9asd",
+        name: "Mouse hp",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nam, dicta esse dolore, error minus quidem distinctio quae nisi veritatis labore cupiditate neque unde ab nostrum reprehenderit itaque in obcaecati?",
         price: 299.99,
         stock: 10,
-        image: "/img/laptop-dell-xps.jpg",
-        category: "articulos electronicos"
+        image: "/img/mouse.jpg",
+        category: "articulos"
     },
  
     {
-        id: "8",
-        name: "PC Gaming Alienware Aurora",
-        description: "PC Gaming con procesador Intel i9 y gráfica RTX 3080.",
+        id: "10cvb",
+        name: "Mouse hp",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nam, dicta esse dolore, error minus quidem distinctio quae nisi veritatis labore cupiditate neque unde ab nostrum reprehenderit itaque in obcaecati?",
         price: 2499.99,
         stock: 5,
-        image: "/img/laptop-dell-xps.jpg",
-        category: "PC"
+        image: "/img/mouse.jpg",
+        category: "articulos"
     },
     {
-        id: "9",
-        name: "PC HP Envy Desktop",
-        description: "PC HP para uso doméstico y profesional.",
+        id: "11asd",
+        name: "Mouse hp",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nam, dicta esse dolore, error minus quidem distinctio quae nisi veritatis labore cupiditate neque unde ab nostrum reprehenderit itaque in obcaecati?",
         price: 999.99,
         stock: 7,
-        image: "/img/laptop-dell-xps.jpg",
-        category: "PC"
+        image: "/img/mouse.jpg",
+        category: "articulos"
     },
    
     {
-        id: "12",
-        name: "PC Lenovo ThinkCentre",
-        description: "PC de escritorio Lenovo con procesador Intel i5.",
+        id: "12asd",
+        name: "Mouse hp",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nam, dicta esse dolore, error minus quidem distinctio quae nisi veritatis labore cupiditate neque unde ab nostrum reprehenderit itaque in obcaecati?",
         price: 699.99,
         stock: 12,
-        image: "/img/laptop-dell-xps.jpg",
-        category: "PC"
+        image: "/img/mouse.jpg",
+        category: "articulos"
     }
 ];
 
